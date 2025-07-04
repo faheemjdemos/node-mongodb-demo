@@ -1,5 +1,9 @@
 # Instructions
 
+- Make sure `mongod` is running in the terminal.
+- Start `Mongo Compass` or `mongosh` in another terminal.
+- Download/close this Github repo.
+- Switch to the downloaded folder.
 - Install dependencies
 
 ```bash
