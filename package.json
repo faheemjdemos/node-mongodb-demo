@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "mongodb": "nodemon index_mongodb.js",
+    "mongoose": "nodemon index_mongoose.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "description": "",
   "dependencies": {
     "mongodb": "^5.9.2",
+    "mongoose": "^8.16.1",
     "nodemon": "^3.1.10"
   }
 }
